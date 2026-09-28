@@ -13,7 +13,7 @@ public static class DependencyInjection
         services.AddSingleton<IProductRepository, InMemoryProductRepository>();
         services.AddScoped<CreateProductHandler>();
         services.AddScoped<ListProductsHandler>();
-        //services.AddScoped<IDbConnectionFactory, SqlServerConnectionFactory>();
+        services.AddScoped<IDbConnectionFactory, SqlServerConnectionFactory>();
         return services;
     }
 }
