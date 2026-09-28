@@ -4,7 +4,7 @@
     "engine": "sql",
     "server": "127.0.0.1",
     "port": 1433,
-    "database": "school",
+    "database": "Ecomm",
     "user": "sa"
   },
   "paths": {
