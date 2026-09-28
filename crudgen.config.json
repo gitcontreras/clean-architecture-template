@@ -1,0 +1,17 @@
+{
+  "rootNamespace": "MyCustomizedFramework",
+  "connection": {
+    "engine": "sql",
+    "server": "127.0.0.1",
+    "port": 1433,
+    "database": "school",
+    "user": "sa"
+  },
+  "paths": {
+    "Domain": "src/MyCustomizedFramework.Domain",
+    "Application": "src/MyCustomizedFramework.Application",
+    "Infrastructure": "src/MyCustomizedFramework.Infrastructure",
+    "Api": "src/MyCustomizedFramework.Api",
+    "Tests": "tests/MyCustomizedFramework.UnitTests"
+  }
+}

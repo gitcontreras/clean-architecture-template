@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Connections;
 using Microsoft.Extensions.DependencyInjection;
 using MyCustomizedFramework.Application.Abstractions.Persistence;
 using MyCustomizedFramework.Application.Products;
@@ -12,6 +13,7 @@ public static class DependencyInjection
         services.AddSingleton<IProductRepository, InMemoryProductRepository>();
         services.AddScoped<CreateProductHandler>();
         services.AddScoped<ListProductsHandler>();
+        //services.AddScoped<IDbConnectionFactory, SqlServerConnectionFactory>();
         return services;
     }
 }
