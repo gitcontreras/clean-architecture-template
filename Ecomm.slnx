@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Ecomm.Api/Ecomm.Api.csproj" />
+    <Project Path="src/Ecomm.Application/Ecomm.Application.csproj" />
+    <Project Path="src/Ecomm.Domain/Ecomm.Domain.csproj" />
+    <Project Path="src/Ecomm.Infrastructure/Ecomm.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Ecomm.IntegrationTests/Ecomm.IntegrationTests.csproj" />
+    <Project Path="tests/Ecomm.UnitTests/Ecomm.UnitTests.csproj" />
+  </Folder>
+</Solution>

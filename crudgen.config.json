@@ -1,5 +1,5 @@
 {
-  "rootNamespace": "MyCustomizedFramework",
+  "rootNamespace": "Ecomm",
   "connection": {
     "engine": "sql",
     "server": "127.0.0.1",
@@ -8,10 +8,10 @@
     "user": "sa"
   },
   "paths": {
-    "Domain": "src/MyCustomizedFramework.Domain",
-    "Application": "src/MyCustomizedFramework.Application",
-    "Infrastructure": "src/MyCustomizedFramework.Infrastructure",
-    "Api": "src/MyCustomizedFramework.Api",
-    "Tests": "tests/MyCustomizedFramework.UnitTests"
+    "Domain": "src/Ecomm.Domain",
+    "Application": "src/Ecomm.Application",
+    "Infrastructure": "src/Ecomm.Infrastructure",
+    "Api": "src/Ecomm.Api",
+    "Tests": "tests/Ecomm.UnitTests"
   }
 }
